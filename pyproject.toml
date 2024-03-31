@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "projeto-1bilhao-linhas"
+version = "0.1.0"
+description = "O objetivo deste projeto é demonstrar como processar eficientemente um arquivo de dados massivo contendo 1 bilhão de linhas (~14GB), especificamente para calcular estatísticas (Incluindo agregação e ordenação que são operações pesadas) utilizando Python."
+authors = ["Felipe Francisco <fsfrancisco@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
